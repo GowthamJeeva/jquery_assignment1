@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+			Search Movie
+		</title>
+		<meta charset="utf-8" />	<!-- Encoding with Universal coding 8-bits -->
+		<meta name="viewport" content="width=device-width">
+
+		 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		 <script type="text/javascript" src="jquery.simplePagination.js"></script>
+
+
+		<script src="Assignment1.js"></script>
+		 <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="Assignment1.css"/>
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="col-sm-6">
+			<h1 class="header">Search the movie</h1><select id="filter"><option>All Movies</option><option>By IMDB rating</option></select>
+		<form method="post" action="">
+    
+    <input type="text" name="search" id="search_box" class='search_box' />
+    <br />
+</form>
+      
+<div id="searchresults" hidden="true"><h3>Search results for <span class="word"></span><h3></div>
+<div id="results1" class="update"></div></div>
+<div class="col-sm-6">
+	<div id="results">
+
+</div></div>
+</div>
+	</body>
+</html>
